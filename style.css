@@ -9,10 +9,10 @@
     top: 10%;
     left: 0;
     z-index: -1 ;
-    width: 60%;
     height: 45%;
+    width: 50%;
     border: 10px solid transparent;
-    border-bottom: 10px solid #FDD835;
+    border-bottom: 10px solid #fdf035;
     border-radius: 50%;
     animation: loader 2s infinite;
     animation-timing-function: linear;

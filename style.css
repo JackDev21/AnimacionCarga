@@ -1,10 +1,10 @@
-.pan-loader {
+.sarten-loader {
     width: 180px;
     height: 180px;
     margin: 100px auto;
 }
 
-.pan-loader .loader {
+.sarten-loader .loader {
     position: relative;
     top: 10%;
     left: 0;
@@ -19,13 +19,13 @@
 
 }
 
-.pan-loader .pan-container {
+.sarten-loader .sarten-container {
     display: flex;
     width: 100%;
-    animation: pan 2s infinite;
+    animation: sarten 2s infinite;
 }
 
-.pan-loader .pan {
+.sarten-loader .sarten {
     width: 60%;
     height: 20px;
     background: linear-gradient(#A73237, #611B1F);
@@ -33,7 +33,7 @@
     border-bottom-left-radius: 20px;
 }   
 
-.pan-loader .handle {
+.sarten-loader .mango {
     width: 40%;
     height: 10px;
     background: linear-gradient(#000000, #000000);
@@ -44,7 +44,7 @@
 
 } 
 
-.pan-loader .shadow {
+.sarten-loader .shadow {
     position: relative;
     top: 15%;
     left: 15%;
@@ -91,7 +91,7 @@
         transform: rotate(360deg);
     }
 }
-@keyframes pan {
+@keyframes sarten {
     0% {
         transform: rotate(0deg);
         transform-origin:top right;
